@@ -16,6 +16,7 @@ import java.sql.Types;
 
 /**
  * QAllColumns is a Querydsl query type for QAllColumns
+ * 
  */
 @Generated("com.querydsl.sql.codegen.MetaDataSerializer")
 public class QAllColumns extends com.querydsl.sql.RelationalPathBase<QAllColumns> {
