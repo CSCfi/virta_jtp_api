@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>fi.csc.virta.julkaisut</groupId>
+        <artifactId>julkaisutiedot-api</artifactId>
+        <relativePath>../</relativePath>
+        <version>1.1.1-SNAPSHOT</version>
+    </parent>
+
+    <version>1.1.1-SNAPSHOT</version>
+    <artifactId>data-model</artifactId>
+    <packaging>jar</packaging>
+    <name>data-model</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-sql</artifactId>
+            <version>${querydsl.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-sql-codegen</artifactId>
+            <version>${querydsl.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <!-- Active this profile when schema is changed -->
+            <id>schemaUpdate</id>
+            <properties>
+                <schemaDBHost>localhost</schemaDBHost>
+                <schemaDBUser />
+                <schemaDBPassword />
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.querydsl</groupId>
+                        <artifactId>querydsl-maven-plugin</artifactId>
+                        <version>${querydsl.version}</version>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>export</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <jdbcDriver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbcDriver>
+                            <jdbcUrl>jdbc:sqlserver://${schemaDBHost}:1433;databaseName=julkaisut</jdbcUrl>
+                            <jdbcUser>${schemaDBUser}</jdbcUser>
+                            <jdbcPassword>${schemaDBPassword}</jdbcPassword>
+                            <packageName>fi.csc.virta.julkaisut.domain</packageName>
+                            <targetFolder>${project.basedir}/src/main/java</targetFolder>
+                            <sourceFolder />
+                        </configuration>
+                        <dependencies>
+                            <dependency>
+                                <groupId>com.microsoft.sqlserver</groupId>
+                                <artifactId>sqljdbc4</artifactId>
+                                <version>4.0</version>
+                            </dependency>
+                        </dependencies>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

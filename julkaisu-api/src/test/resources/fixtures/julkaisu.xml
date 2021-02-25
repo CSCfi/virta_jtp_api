@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Julkaisu>
+    <OrganisaatioTunnus>99999</OrganisaatioTunnus>
+    <IlmoitusVuosi>2014</IlmoitusVuosi>
+    <JulkaisunTilaKoodi>1</JulkaisunTilaKoodi>
+
+    <JulkaisunOrgTunnus>11223344</JulkaisunOrgTunnus>
+
+    <JulkaisunOrgYksikot>
+        <YksikkoKoodi>E01</YksikkoKoodi>
+        <YksikkoKoodi>E02</YksikkoKoodi>
+        <YksikkoKoodi>E03</YksikkoKoodi>
+        <YksikkoKoodi>E04</YksikkoKoodi>
+        <YksikkoKoodi>E05</YksikkoKoodi>
+    </JulkaisunOrgYksikot>
+
+    <JulkaisuVuosi>2014</JulkaisuVuosi>
+    <JulkaisunNimi>Some test publication</JulkaisunNimi>
+    <TekijatiedotTeksti>
+        Test, User; Testing, User; Another, User
+    </TekijatiedotTeksti>
+    <SivunumeroTeksti>569-575</SivunumeroTeksti>
+    <Artikkelinumero>III</Artikkelinumero>
+    <JufoTunnus>12345</JufoTunnus>
+    <JufoLuokkaKoodi>1</JufoLuokkaKoodi>
+    <JulkaisumaaKoodi>826</JulkaisumaaKoodi>
+    <LehdenNimi>Testing Magazine</LehdenNimi>
+    <ISSN>1234-2222</ISSN>
+    <VolyymiTeksti>49</VolyymiTeksti>
+    <LehdenNumeroTeksti>6</LehdenNumeroTeksti>
+    <JulkaisutyyppiKoodi>A1</JulkaisutyyppiKoodi>
+
+    <TieteenalaKoodit>
+        <TieteenalaKoodi JNro="1">3111</TieteenalaKoodi>
+        <TieteenalaKoodi JNro="2">3122</TieteenalaKoodi>
+    </TieteenalaKoodit>
+
+    <KoulutusalaKoodit>
+        <KoulutusalaKoodi JNro="1">90</KoulutusalaKoodi>
+    </KoulutusalaKoodit>
+
+    <YhteisjulkaisuKVKytkin>1</YhteisjulkaisuKVKytkin>
+    <YhteisjulkaisuSHPKytkin>0</YhteisjulkaisuSHPKytkin>
+    <YhteisjulkaisuTutkimuslaitosKytkin>0</YhteisjulkaisuTutkimuslaitosKytkin>
+    <YhteisjulkaisuMuuKytkin>0</YhteisjulkaisuMuuKytkin>
+    <JulkaisunKansainvalisyysKytkin>1</JulkaisunKansainvalisyysKytkin>
+    <JulkaisunKieliKoodi>en</JulkaisunKieliKoodi>
+    <AvoinSaatavuusKoodi>2</AvoinSaatavuusKoodi>
+    <EVOjulkaisuKytkin>1</EVOjulkaisuKytkin>
+    <DOI>12.1112/gcc.22234</DOI>
+    <PysyvaOsoiteTeksti>http://localhost/doi/12.1112/gcc.22234/abstract</PysyvaOsoiteTeksti>
+
+    <Tekijat>
+        <Tekija>
+            <Sukunimi>Test</Sukunimi>
+            <Etunimet>User</Etunimet>
+            <Yksikot>
+                <YksikkoKoodi>T305</YksikkoKoodi>
+            </Yksikot>
+        </Tekija>
+        <Tekija>
+            <Sukunimi>Testing</Sukunimi>
+            <Etunimet>User</Etunimet>
+            <Yksikot>
+                <YksikkoKoodi>T307</YksikkoKoodi>
+            </Yksikot>
+        </Tekija>
+    </Tekijat>
+
+</Julkaisu>

@@ -1,0 +1,70 @@
+{
+  "OrganisaatioTunnus": 99999,
+  "SivunumeroTeksti": "569-575",
+  "YhteisjulkaisuTutkimuslaitosKytkin": 0,
+  "JulkaisunKieliKoodi": "en",
+  "IlmoitusVuosi": 2012,
+  "JulkaisunTunnus": "31313:RE02:2014",
+  "YhteisjulkaisuKVKytkin": 1,
+  "JulkaisuVuosi": 2014,
+  "PysyvaOsoiteTeksti": "http://onlinelibrary.wiley.com/doi/10.1002/gcc.20767/abstract",
+  "LehdenNumeroTeksti": 6,
+  "TieteenalaKoodit": {
+    "TieteenalaKoodi": [
+      {
+        "JNro": 1,
+        "content": 3111
+      },
+      {
+        "JNro": 2,
+        "content": 3122
+      }
+    ]
+  },
+  "DOI": "10.1002/gcc.20767",
+  "VolyymiTeksti": 49,
+  "JulkaisutyyppiKoodi": "A1",
+  "EVOjulkaisuKytkin": 1,
+  "AvoinSaatavuusKoodi": 2,
+  "ISSN": "1045-2257",
+  "JulkaisumaaKoodi": 826,
+  "YhteisjulkaisuSHPKytkin": 0,
+  "JulkaisunTilaKoodi": 1,
+  "TekijatiedotTeksti": "Kuuselo, Riina; Simon, Ronald; Karhu, Ritva; Tennstedt, Pierre; Marx, Andreas H.; Izbicki, Jakob R.; Yekebas, Emre; Sauter, Guido; Kallioniemi, Anne",
+  "Tekijat": {
+    "Tekija": [
+      {
+        "Etunimet": "Anne",
+        "Sukunimi": "Kallioniemi",
+        "Yksikot": {
+          "YksikkoKoodi": [
+            "T307",
+            "T307"
+          ]
+        }
+      },
+      {
+        "Etunimet": "Riina",
+        "Sukunimi": "Kuuselo",
+        "Yksikot": {
+          "YksikkoKoodi": [
+            "T305",
+            "T305"
+          ]
+        }
+      }
+    ]
+  },
+  "YhteisjulkaisuMuuKytkin": 0,
+  "LehdenNimi": "Genes, Chromosomes & Cancer",
+  "KoulutusalaKoodit": {
+    "KoulutusalaKoodi": {
+      "JNro": 1,
+      "content": 90
+    }
+  },
+  "JufoTunnus": 56446,
+  "JulkaisunKansainvalisyysKytkin": 1,
+  "JulkaisunOrgTunnus": "RE02",
+  "JulkaisunNimi": "19q13 amplification is associated with high grade and stage in pancreatic cancer"
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "organisaatioTunnus": "10076",
+    "ilmoitusVuosi": 2011,
+    "julkaisunTunnus": "a1",
+    "julkaisunTilakoodi": 1,
+    "julkaisunOrgTunnus": "1007626763",
+    "julkaisuVuosi": 2011,
+    "julkaisunNimi": "Special section on wireless mobile and multimedia networks",
+    "tekijatiedotTeksti": "\"Mohapatra, Prasant; Ott, Jorg\"",
+    "tekijoidenLkm": 2,
+    "sivunumeroTeksti": "pp. 921-921",
+    "jufoTunnus": "53925",
+    "jufoLuokkaKoodi": "1",
+    "julkaisumaaKoodi": "528",
+    "lehdenNimi": "Computer communications",
+    "issn": "0140-3664",
+    "volyymiTeksti": "34",
+    "lehdenNumeroTeksti": "8",
+    "yhteisjulkaisuKVKytkin": "1",
+    "julkaisunKieliKoodi": "en",
+    "avoinSaatavuusKoodi": "9",
+    "latausId": "CSV20160529",
+    "yhteisjulkaisuId": "0",
+    "orgSektori": 0,
+    "julkaisutyyppiKoodi": "A1",
+    "hankeTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "latausId": "1",
+        "hankenumero": "123abc",
+        "rahoittajaOrg": "xyz"
+      },
+      {
+        "julkaisunTunnus": "a1",
+        "latausId": "1",
+        "hankenumero": "124abc",
+        "rahoittajaOrg": "xyz1"
+      }
+    ],
+    "avainsanaTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "latausId": "1",
+        "avainsana": "avain1"
+      },
+      {
+        "julkaisunTunnus": "a1",
+        "latausId": "1",
+        "avainsana": "avain2"
+      },
+      {
+        "julkaisunTunnus": "a1",
+        "latausId": "1",
+        "avainsana": "avain3"
+      }
+    ],
+    "isbnTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "isbn": "isbn1",
+        "latausId": "1"
+      }
+    ],
+    "issnTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "issn": "issn1",
+        "latausId": "1"
+      }
+    ],
+    "koulutusalaTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "koulutusala": 11,
+        "jNro": 1,
+        "latausId": "1"
+      },
+      {
+        "julkaisunTunnus": "a1",
+        "koulutusala": 22,
+        "jNro": 2,
+        "latausId": "1"
+      }
+    ],
+    "orgYksikkoTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "organisaatioTunnus": "org1",
+        "julkaisuYksikko": "julkyk1",
+        "tekijaYksikko": "tekyk1",
+        "latausId": "1"
+      }
+    ],
+    "tekijaTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "etunimet": "Matti Teppo",
+        "sukunimi": "Meikalainen",
+        "orcid": "orcid123",
+        "yksikko": "yksikko1",
+        "latausId": "1"
+      }
+    ],
+    "tieteenalaTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "tieteenala": 111,
+        "jNro": 1,
+        "latausId": "1"
+      }
+    ],
+    "taiteenalaTKs": [
+      {
+        "julkaisunTunnus": "a1",
+        "taiteenala": 2,
+        "jNro": 1,
+        "latausId": "1"
+      }
+    ], 
+    "jufoLuokkaVanha": "1",
+    "jufoLuokkaUusi": "2",
+    "alayksikko": "H1"
+  },
+  {
+    "organisaatioTunnus": "10076",
+    "ilmoitusVuosi": 2011,
+    "julkaisunTunnus": "a2",
+    "julkaisunTilakoodi": 1,
+    "julkaisunOrgTunnus": "1007626811",
+    "julkaisuVuosi": 2011,
+    "julkaisunNimi": "Spin-glass behavior of nanocrystalline multiferroic bismuth ferrite lead titanate",
+    "tekijatiedotTeksti": "\"Tuboltsev, V.; Savin, A.; Sakamoto, W.; Hieno, A.; Yogo, T.; Raisanen, J.\"",
+    "tekijoidenLkm": 6,
+    "sivunumeroTeksti": "pp. 781-788",
+    "jufoTunnus": "60943",
+    "jufoLuokkaKoodi": "3",
+    "julkaisumaaKoodi": "826",
+    "lehdenNimi": "Journal of materials chemistry",
+    "issn": "0959-9428",
+    "volyymiTeksti": "21",
+    "lehdenNumeroTeksti": "3",
+    "yhteisjulkaisuKVKytkin": "0",
+    "julkaisunKieliKoodi": "en",
+    "avoinSaatavuusKoodi": "9",
+    "doi": "http://dx.\"DOI\".org/10.1039/c0jm02273j",
+    "latausId": "CSV20160529",
+    "yhteisjulkaisuId": "0",
+    "orgSektori": 0,
+    "julkaisutyyppiKoodi": "A1",
+    "hankeTKs": [
+      {
+        "julkaisunTunnus": "a2",
+        "latausId": "1",
+        "hankenumero": "12ab",
+        "rahoittajaOrg": "xyz"
+      },
+      {
+        "julkaisunTunnus": "a2",
+        "latausId": "2",
+        "hankenumero": "13ab",
+        "rahoittajaOrg": "xyz1"
+      }
+    ],
+    "avainsanaTKs": [
+      {
+        "julkaisunTunnus": "a2",
+        "latausId": "2",
+        "avainsana": "avain1"
+      }
+    ],
+    "isbnTKs": [],
+    "issnTKs": [],
+    "koulutusalaTKs": [],
+    "orgYksikkoTKs": [],
+    "tekijaTKs": [],
+    "tieteenalaTKs": [],
+    "taiteenalaTKs": [],
+    "jufoLuokkaVanha": "1",
+    "jufoLuokkaUusi": "2",
+    "alayksikko": "H1"
+  },
+  {
+    "organisaatioTunnus": "10076",
+    "ilmoitusVuosi": 2011,
+    "julkaisunTunnus": "a3",
+    "julkaisunTilakoodi": 1,
+    "julkaisunOrgTunnus": "1007629128",
+    "julkaisuVuosi": 2011,
+    "julkaisunNimi": "The non-birefringent limit of all linear, skewonless media and its unique light-cone structure",
+    "tekijatiedotTeksti": "\"Bergamin, Luzi; Favaro, Alberto\"",
+    "tekijoidenLkm": 2,
+    "sivunumeroTeksti": "383-401",
+    "jufoTunnus": "51135",
+    "jufoLuokkaKoodi": "1",
+    "julkaisumaaKoodi": "276",
+    "lehdenNimi": "Annalen der Physik",
+    "issn": "1521-3889",
+    "volyymiTeksti": "523",
+    "lehdenNumeroTeksti": "5",
+    "yhteisjulkaisuKVKytkin": "1",
+    "julkaisunKieliKoodi": "en",
+    "avoinSaatavuusKoodi": "9",
+    "doi": "http://dx.\"DOI\".org/10.1002/andp.201000140",
+    "latausId": "CSV20160529",
+    "yhteisjulkaisuId": "0",
+    "orgSektori": 0,
+    "julkaisutyyppiKoodi": "A1",
+    "hankeTKs": [],
+    "avainsanaTKs": [],
+    "isbnTKs": [],
+    "issnTKs": [],
+    "koulutusalaTKs": [],
+    "orgYksikkoTKs": [],
+    "tekijaTKs": [],
+    "tieteenalaTKs": [],
+    "taiteenalaTKs": [],
+    "jufoLuokkaVanha": "1",
+    "jufoLuokkaUusi": "2",
+    "alayksikko": "H1"
+  },
+  {
+    "organisaatioTunnus": "10076",
+    "ilmoitusVuosi": 2011,
+    "julkaisunTunnus": "a4",
+    "julkaisunTilakoodi": 1,
+    "julkaisunOrgTunnus": "1007629263",
+    "julkaisuVuosi": 2011,
+    "julkaisunNimi": "Toolonlahden pelikenttä tayttyy.The game at Toolonlahti bay heats up.Keskuspusikko",
+    "tekijatiedotTeksti": "Hernberg, Hella",
+    "tekijoidenLkm": 1,
+    "sivunumeroTeksti": "73-75",
+    "jufoTunnus": "70117",
+    "jufoLuokkaKoodi": "0",
+    "julkaisumaaKoodi": "246",
+    "lehdenNimi": "Arkkitehti",
+    "issn": "0783-3660",
+    "volyymiTeksti": "108",
+    "lehdenNumeroTeksti": "5",
+    "yhteisjulkaisuKVKytkin": "0",
+    "avoinSaatavuusKoodi": "9",
+    "latausId": "CSV20160529",
+    "yhteisjulkaisuId": "0",
+    "orgSektori": 0,
+    "julkaisutyyppiKoodi": "A1",
+    "hankeTKs": [],
+    "avainsanaTKs": [],
+    "isbnTKs": [],
+    "issnTKs": [],
+    "koulutusalaTKs": [],
+    "orgYksikkoTKs": [],
+    "tekijaTKs": [],
+    "tieteenalaTKs": [],
+    "taiteenalaTKs": [],
+    "jufoLuokkaVanha": "1",
+    "jufoLuokkaUusi": "2",
+    "alayksikko": "H1"
+  }
+]

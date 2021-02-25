@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration indented="false" maxListIdentifiersSize="100" maxListRecordsSize="100"
+               maxListSetsSize="100"
+               xmlns="http://www.lyncode.com/XOAIConfiguration">
+
+    <Contexts>
+        <Context baseurl="/" name="Default Context">
+            <Format ref="julkaisut_dc"/>
+            <Format ref="julkaisut_cerif"/>
+            <Format ref="julkaisut"/>
+            <Description>
+                This is the default context of the DSpace data provider.
+            </Description>
+        </Context>
+    </Contexts>
+
+    <Formats>
+        <Format id="julkaisut_dc">
+            <Prefix>oai_dc</Prefix>
+            <XSLT>metadataFormats/oai_dc.xsl</XSLT>
+            <Namespace>http://www.openarchives.org/OAI/2.0/oai_dc/</Namespace>
+            <SchemaLocation>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</SchemaLocation>
+        </Format>
+        <Format id="julkaisut_cerif">
+            <Prefix>oai_cerif_openaire</Prefix>
+            <XSLT>metadataFormats/oai_cerif_openaire.xsl</XSLT><!-- correct -->
+            <Namespace>https://www.openaire.eu/cerif-profile/1.1/</Namespace>
+            <SchemaLocation>https://github.com/openaire/guidelines-cris-managers/raw/v1.1/schemas/openaire-cerif-profile.xsd</SchemaLocation>
+        </Format>
+        <Format id="julkaisut">
+            <Prefix>julkaisut</Prefix>
+            <XSLT>metadataFormats/julkaisut.xsl</XSLT>
+            <Namespace>urn:mace:funet.fi:julkaisut/2015/03/01</Namespace>
+            <SchemaLocation>urn:mace:funet.fi:julkaisut/2015/03/01</SchemaLocation>
+        </Format>
+    </Formats>
+
+    <Transformers>
+    </Transformers>
+
+    <Filters>
+    </Filters>
+
+    <Sets>
+    </Sets>
+</Configuration>

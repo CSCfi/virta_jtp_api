@@ -1,0 +1,96 @@
+#!/bin/bash
+# julkaisu-api
+# chkconfig: 2345 20 80
+# config: /etc/sysconfig/julkaisu-api
+# Source function library.
+. /etc/rc.d/init.d/functions
+
+if [ -f /etc/sysconfig/julkaisu-api ]; then
+    . /etc/sysconfig/julkaisu-api
+fi
+
+#Define variables
+path=/opt/julkaisut-raja/julkaisu-api/
+exec="$path/bin/julkaisu-api"
+prog="julkaisu-api"
+pidfile="/var/run/$prog.pid"
+
+start() {
+    [ -x $exec ] || exit 5
+    echo -n $"Starting $prog: "
+    cd $path
+    # use daemon to start the service
+    daemon --user="jutiapp" --pidfile="$pidfile" "export JAVA_OPTS='$JAVA_OPTS' && $exec > /dev/null 2>&1 &"
+    retval=$?
+    
+    sleep 5
+    pgrep -f $prog > $pidfile
+
+    return $retval
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    # use kill proc to stop the service
+    killproc $prog
+    retval=$?
+    return $retval
+}
+
+restart() {
+    stop
+    start
+}
+
+reload() {
+    restart
+}
+
+force_reload() {
+    restart
+}
+
+rh_status() {
+    # run checks to determine if the service is running or use generic status
+    status $prog
+}
+
+rh_status_q() {
+    rh_status > /dev/null 2>&1
+}
+
+
+case "$1" in
+    start)
+        #Only if not running,  start
+        rh_status_q && echo "process already started" && exit 0
+        $1
+        ;;
+    stop)
+        # Only if service is running stopt
+        rh_status_q || exit 0
+        $1
+        ;;
+    restart)
+        $1
+        ;;
+    reload)
+        rh_status_q || exit 7
+        $1
+        ;;
+    force-reload)
+        force_reload
+        ;;
+    status)
+        rh_status
+        ;;
+    condrestart|try-restart)
+        rh_status_q || exit 0
+        restart
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|status|restart|condrestart|try-restart|reload|force-reload}"
+        exit 2
+
+esac
+exit $?
