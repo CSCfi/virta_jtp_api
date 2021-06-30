@@ -50,7 +50,7 @@ public class JulkaisuTK implements DTO {
     private String lahdetietokannanTunnus;
     private String latausId;
     private String yhteisjulkaisuId;
-    private String rinnakkaistallennusKytkin;
+    private String rinnakkaistallenettuKytkin;
     private String yhteisjulkaisunTunnus;
     private String juuliOsoiteTeksti;
     private String yhteisjulkaisuYritysKytkin;
@@ -385,12 +385,12 @@ public class JulkaisuTK implements DTO {
         this.yhteisjulkaisuId = yhteisjulkaisuId;
     }
 
-    public String getRinnakkaistallennusKytkin() {
-        return rinnakkaistallennusKytkin;
+    public String getRinnakkaistallenettuKytkin() {
+        return rinnakkaistallenettuKytkin;
     }
 
-    public void setRinnakkaistallennusKytkin(String rinnakkaistallennusKytkin) {
-        this.rinnakkaistallennusKytkin = rinnakkaistallennusKytkin;
+    public void setRinnakkaistallenettuKytkin(String rinnakkaistallenettuKytkin) {
+        this.rinnakkaistallenettuKytkin = rinnakkaistallenettuKytkin;
     }
 
     public String getYhteisjulkaisunTunnus() {
