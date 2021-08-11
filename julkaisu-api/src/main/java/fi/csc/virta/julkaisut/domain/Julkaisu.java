@@ -12,7 +12,7 @@ import java.util.Date;
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class Julkaisu implements DTO {
     
-    /* testikommentti */
+    /* testikommentti 2 */
 
     @JsonIgnore
     private Long julkaisuID;
