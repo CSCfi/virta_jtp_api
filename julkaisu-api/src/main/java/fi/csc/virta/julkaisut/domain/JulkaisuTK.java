@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.LinkedHashSet;
 import java.util.Set;
-
+/* Kommenttitesti*/
 @XmlRootElement(name = "JulkaisuTK")
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class JulkaisuTK implements DTO {
