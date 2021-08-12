@@ -11,6 +11,8 @@ import java.util.Date;
 @XmlRootElement(name = "Julkaisu")
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class Julkaisu implements DTO {
+    
+    /* testikommentti 2 */
 
     @JsonIgnore
     private Long julkaisuID;
