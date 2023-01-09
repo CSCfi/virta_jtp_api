@@ -23,22 +23,21 @@ public class Tilanneraportti implements DTO {
     private Integer ilmoitusVuosi;
     private Integer julkaisunTila;
     private String jufoTunnus;
-    private String jufoLuokkaKoodi;
-	
-	private BigDecimal avoinSaatavuusJulkaisumaksu;
-	private Integer avoinSaatavuusJulkaisumaksuVuosi;
-	private String julkaisuKanavaOA;
-	private String avoinSaatavuusKytkin;
-	private String lisenssiKoodi;
-	private String muotoKoodi;
-	private String yleisoKoodi;
-	private String emojulkaisuntyyppiKoodi;
-	private String artikkelityyppiKoodi;
-	private String vertaisarvioituKytkin;
-	private String raporttiKytkin;
-	private String opinnayteKoodi;
-	private String taidetyyppiKoodi;
-	private String avSovellusTyyppiKoodi;
+    private String jufoLuokkaKoodi;	
+    private String avoinSaatavuusJulkaisumaksu;
+    private Integer avoinSaatavuusJulkaisumaksuVuosi;
+    private String julkaisuKanavaOA;
+    private String avoinSaatavuusKytkin;
+    private String lisenssiKoodi;
+    private String muotoKoodi;
+    private String yleisoKoodi;
+    private String emojulkaisuntyyppiKoodi;
+    private String artikkelityyppiKoodi;
+    private String vertaisarvioituKytkin;
+    private String raporttiKytkin;
+    private String opinnayteKoodi;
+    private String taidetyyppiKoodi;
+    private String avSovellusTyyppiKoodi;
 
 
     public String getOrganisaatioNimi() {
@@ -97,47 +96,60 @@ public class Tilanneraportti implements DTO {
         return jufoLuokkaKoodi;
     }
 
-	public BigDecimal avoinSaatavuusJulkaisumaksu {
-		return avoinSaatavuusJulkaisumaksu;
+    public String getAvoinSaatavuusJulkaisumaksu() {
+	return avoinSaatavuusJulkaisumaksu;
     }
-	public Integer avoinSaatavuusJulkaisumaksuVuosi {
-		return avoinSaatavuusJulkaisumaksuVuosi;
+    
+    public Integer getAvoinSaatavuusJulkaisumaksuVuosi() {
+	return avoinSaatavuusJulkaisumaksuVuosi;
     }
-	public String julkaisuKanavaOA {
-		return julkaisuKanavaOA;
+    
+    public String getJulkaisuKanavaOA() {
+	return julkaisuKanavaOA;
     }
-	public String avoinSaatavuusKytkin {
-		return avoinSaatavuusKytkin;
+    
+    public String getAvoinSaatavuusKytkin() {
+	return avoinSaatavuusKytkin;
     }
-	public String lisenssiKoodi {
-		return lisenssiKoodi;
+	
+    public String getLisenssiKoodi() {
+        return lisenssiKoodi;
     }
-	public String muotoKoodi {
-		return muotoKoodi;
+	
+    public String getMuotoKoodi() {
+	return muotoKoodi;
     }
-	public String yleisoKoodi {
-		return yleisoKoodi;
+	
+    public String getYleisoKoodi() {
+	return yleisoKoodi;
     }
-	public String emojulkaisuntyyppiKoodi {
-		return emojulkaisuntyyppiKoodi;
+    
+    public String getEmojulkaisuntyyppiKoodi() {
+	return emojulkaisuntyyppiKoodi;
     }
-	public String artikkelityyppiKoodi {
-		return artikkelityyppiKoodi;
+	
+    public String getArtikkelityyppiKoodi() {
+	return artikkelityyppiKoodi;
     }
-	public String vertaisarvioituKytkin {
-		return vertaisarvioituKytkin;
+	
+    public String getVertaisarvioituKytkin() {
+	return vertaisarvioituKytkin;
     }
-	public String raporttiKytkin {
-		return raporttiKytkin;
+	
+    public String getRaporttiKytkin() {
+	return raporttiKytkin;
     }
-	public String opinnayteKoodi {
-		return opinnayteKoodi;
+	
+    public String getOpinnayteKoodi() {
+	return opinnayteKoodi;
     }
-	public String taidetyyppiKoodi {
-		return taidetyyppiKoodi;
+	
+    public String getTaidetyyppiKoodi() {
+	return taidetyyppiKoodi;
     }
-	public String avSovellusTyyppiKoodi {
-		return avSovellusTyyppiKoodi;
+	
+    public String getAVSovellusTyyppiKoodi() {
+	return avSovellusTyyppiKoodi;
     }
 
     public void setOrganisaatioNimi(String organisaatioNimi) {
@@ -196,47 +208,61 @@ public class Tilanneraportti implements DTO {
         this.jufoLuokkaKoodi = jufoLuokkaKoodi;
     }
 	
-	public void setAvoinSaatavuusJulkaisumaksu(BigDecimal avoinSaatavuusJulkaisumaksu) {
-		this.avoinSaatavuusJulkaisumaksu = avoinSaatavuusJulkaisumaksu;
+    public void setAvoinSaatavuusJulkaisumaksu(String avoinSaatavuusJulkaisumaksu) {
+	this.avoinSaatavuusJulkaisumaksu = avoinSaatavuusJulkaisumaksu;
     }
-	public void setAvoinSaatavuusJulkaisumaksuVuosi(Integer avoinSaatavuusJulkaisumaksuVuosi) {
-		this.avoinSaatavuusJulkaisumaksuVuosi = avoinSaatavuusJulkaisumaksuVuosi;
+    
+    public void setAvoinSaatavuusJulkaisumaksuVuosi(Integer avoinSaatavuusJulkaisumaksuVuosi) {
+	this.avoinSaatavuusJulkaisumaksuVuosi = avoinSaatavuusJulkaisumaksuVuosi;
     }
-	public void setJulkaisuKanavaOA(String julkaisuKanavaOA) {
-		this.julkaisuKanavaOA = julkaisuKanavaOA;
+    
+    public void setJulkaisuKanavaOA(String julkaisuKanavaOA) {
+	this.julkaisuKanavaOA = julkaisuKanavaOA;
     }
-	public void setAvoinSaatavuusKytkin(String avoinSaatavuusKytkin) {
-		this.avoinSaatavuusKytkin = avoinSaatavuusKytkin;
+	
+    public void setAvoinSaatavuusKytkin(String avoinSaatavuusKytkin) {
+	this.avoinSaatavuusKytkin = avoinSaatavuusKytkin;
     }
-	public void setLisenssiKoodi(String lisenssiKoodi) {
-		this.lisenssiKoodi = lisenssiKoodi;
+	
+    public void setLisenssiKoodi(String lisenssiKoodi) {
+	this.lisenssiKoodi = lisenssiKoodi;
     }
-	public void setMuotoKoodi(String muotoKoodi) {
-		this.muotoKoodi = muotoKoodi;
+	
+    public void setMuotoKoodi(String muotoKoodi) {
+	this.muotoKoodi = muotoKoodi;
     }
-	public void setYleisoKoodi(String yleisoKoodi) {
-		this.yleisoKoodi = yleisoKoodi;
+	
+    public void setYleisoKoodi(String yleisoKoodi) {
+	this.yleisoKoodi = yleisoKoodi;
     }
-	public void setEmojulkaisuntyyppiKoodi(String emojulkaisuntyyppiKoodi) {
-		this.emojulkaisuntyyppiKoodi = emojulkaisuntyyppiKoodi;
+	
+    public void setEmojulkaisuntyyppiKoodi(String emojulkaisuntyyppiKoodi) {
+	this.emojulkaisuntyyppiKoodi = emojulkaisuntyyppiKoodi;
     }
-	public void setArtikkelityyppiKoodi(String artikkelityyppiKoodi) {
-		this.artikkelityyppiKoodi = artikkelityyppiKoodi;
+	
+    public void setArtikkelityyppiKoodi(String artikkelityyppiKoodi) {
+	this.artikkelityyppiKoodi = artikkelityyppiKoodi;
     }
-	public void setVertaisarvioituKytkin(String vertaisarvioituKytkin) {
-		this.vertaisarvioituKytkin = vertaisarvioituKytkin;
+	
+    public void setVertaisarvioituKytkin(String vertaisarvioituKytkin) {
+	this.vertaisarvioituKytkin = vertaisarvioituKytkin;
     }
-	public void setRaporttiKytkin(String raporttiKytkin) {
-		this.raporttiKytkin = raporttiKytkin;
+	
+    public void setRaporttiKytkin(String raporttiKytkin) {
+	this.raporttiKytkin = raporttiKytkin;
     }
-	public void setOpinnayteKoodi(String opinnayteKoodi) {
-		this.opinnayteKoodi = opinnayteKoodi;
+
+    public void setOpinnayteKoodi(String opinnayteKoodi) {
+	this.opinnayteKoodi = opinnayteKoodi;
     }
-	public void setTaidetyyppiKoodi(String taidetyyppiKoodi) {
-		this.taidetyyppiKoodi = taidetyyppiKoodi;
+	
+    public void setTaidetyyppiKoodi(String taidetyyppiKoodi) {
+		
+        this.taidetyyppiKoodi = taidetyyppiKoodi;
     }
-	public void setAVSovellusTyyppiKoodi(String avSovellusTyyppiKoodi) {
-		this.avSovellusTyyppiKoodi = avSovellusTyyppiKoodi;
+	
+    public void setAVSovellusTyyppiKoodi(String avSovellusTyyppiKoodi) {
+	this.avSovellusTyyppiKoodi = avSovellusTyyppiKoodi;
     }
 
 
