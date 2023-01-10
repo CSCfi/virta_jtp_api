@@ -23,7 +23,21 @@ public class Tilanneraportti implements DTO {
     private Integer ilmoitusVuosi;
     private Integer julkaisunTila;
     private String jufoTunnus;
-    private String jufoLuokkaKoodi;
+    private String jufoLuokkaKoodi;	
+    private String avoinSaatavuusJulkaisumaksu;
+    private Integer avoinSaatavuusJulkaisumaksuVuosi;
+    private String julkaisuKanavaOA;
+    private String avoinSaatavuusKytkin;
+    private String lisenssiKoodi;
+    private String muotoKoodi;
+    private String yleisoKoodi;
+    private String emojulkaisuntyyppiKoodi;
+    private String artikkelityyppiKoodi;
+    private String vertaisarvioituKytkin;
+    private String raporttiKytkin;
+    private String opinnayteKoodi;
+    private String taidetyyppiKoodi;
+    private String avSovellusTyyppiKoodi;
 
 
     public String getOrganisaatioNimi() {
@@ -82,6 +96,61 @@ public class Tilanneraportti implements DTO {
         return jufoLuokkaKoodi;
     }
 
+    public String getAvoinSaatavuusJulkaisumaksu() {
+	return avoinSaatavuusJulkaisumaksu;
+    }
+    
+    public Integer getAvoinSaatavuusJulkaisumaksuVuosi() {
+	return avoinSaatavuusJulkaisumaksuVuosi;
+    }
+    
+    public String getJulkaisuKanavaOA() {
+	return julkaisuKanavaOA;
+    }
+    
+    public String getAvoinSaatavuusKytkin() {
+	return avoinSaatavuusKytkin;
+    }
+	
+    public String getLisenssiKoodi() {
+        return lisenssiKoodi;
+    }
+	
+    public String getMuotoKoodi() {
+	return muotoKoodi;
+    }
+	
+    public String getYleisoKoodi() {
+	return yleisoKoodi;
+    }
+    
+    public String getEmojulkaisuntyyppiKoodi() {
+	return emojulkaisuntyyppiKoodi;
+    }
+	
+    public String getArtikkelityyppiKoodi() {
+	return artikkelityyppiKoodi;
+    }
+	
+    public String getVertaisarvioituKytkin() {
+	return vertaisarvioituKytkin;
+    }
+	
+    public String getRaporttiKytkin() {
+	return raporttiKytkin;
+    }
+	
+    public String getOpinnayteKoodi() {
+	return opinnayteKoodi;
+    }
+	
+    public String getTaidetyyppiKoodi() {
+	return taidetyyppiKoodi;
+    }
+	
+    public String getAVSovellusTyyppiKoodi() {
+	return avSovellusTyyppiKoodi;
+    }
 
     public void setOrganisaatioNimi(String organisaatioNimi) {
         this.organisaatioNimi = organisaatioNimi;
@@ -137,6 +206,63 @@ public class Tilanneraportti implements DTO {
     
     public void setJufoLuokkaKoodi(String jufoLuokkaKoodi) {
         this.jufoLuokkaKoodi = jufoLuokkaKoodi;
+    }
+	
+    public void setAvoinSaatavuusJulkaisumaksu(String avoinSaatavuusJulkaisumaksu) {
+	this.avoinSaatavuusJulkaisumaksu = avoinSaatavuusJulkaisumaksu;
+    }
+    
+    public void setAvoinSaatavuusJulkaisumaksuVuosi(Integer avoinSaatavuusJulkaisumaksuVuosi) {
+	this.avoinSaatavuusJulkaisumaksuVuosi = avoinSaatavuusJulkaisumaksuVuosi;
+    }
+    
+    public void setJulkaisuKanavaOA(String julkaisuKanavaOA) {
+	this.julkaisuKanavaOA = julkaisuKanavaOA;
+    }
+	
+    public void setAvoinSaatavuusKytkin(String avoinSaatavuusKytkin) {
+	this.avoinSaatavuusKytkin = avoinSaatavuusKytkin;
+    }
+	
+    public void setLisenssiKoodi(String lisenssiKoodi) {
+	this.lisenssiKoodi = lisenssiKoodi;
+    }
+	
+    public void setMuotoKoodi(String muotoKoodi) {
+	this.muotoKoodi = muotoKoodi;
+    }
+	
+    public void setYleisoKoodi(String yleisoKoodi) {
+	this.yleisoKoodi = yleisoKoodi;
+    }
+	
+    public void setEmojulkaisuntyyppiKoodi(String emojulkaisuntyyppiKoodi) {
+	this.emojulkaisuntyyppiKoodi = emojulkaisuntyyppiKoodi;
+    }
+	
+    public void setArtikkelityyppiKoodi(String artikkelityyppiKoodi) {
+	this.artikkelityyppiKoodi = artikkelityyppiKoodi;
+    }
+	
+    public void setVertaisarvioituKytkin(String vertaisarvioituKytkin) {
+	this.vertaisarvioituKytkin = vertaisarvioituKytkin;
+    }
+	
+    public void setRaporttiKytkin(String raporttiKytkin) {
+	this.raporttiKytkin = raporttiKytkin;
+    }
+
+    public void setOpinnayteKoodi(String opinnayteKoodi) {
+	this.opinnayteKoodi = opinnayteKoodi;
+    }
+	
+    public void setTaidetyyppiKoodi(String taidetyyppiKoodi) {
+		
+        this.taidetyyppiKoodi = taidetyyppiKoodi;
+    }
+	
+    public void setAVSovellusTyyppiKoodi(String avSovellusTyyppiKoodi) {
+	this.avSovellusTyyppiKoodi = avSovellusTyyppiKoodi;
     }
 
 

@@ -39,7 +39,7 @@ public class QTilanneraportti extends com.querydsl.sql.RelationalPathBase<QTilan
 	public final NumberPath<Integer> julkaisunTila = createNumber("JulkaisunTila", Integer.class);
         public final StringPath jufoTunnus = createString("JufoTunnus");
         public final StringPath jufoLuokkaKoodi = createString("JufoLuokkaKoodi");
-        
+        public final StringPath avoinSaatavuusJulkaisumaksu = createString("avoinSaatavuusJulkaisumaksu");
 
 
     public QTilanneraportti(String variable) {
@@ -78,6 +78,7 @@ public class QTilanneraportti extends com.querydsl.sql.RelationalPathBase<QTilan
 	addMetadata(julkaisunTila, ColumnMetadata.named("JulkaisunTila").withIndex(8).ofType(Types.INTEGER).withSize(10));
         addMetadata(jufoTunnus, ColumnMetadata.named("JufoTunnus").withIndex(13).ofType(Types.NVARCHAR).withSize(10));
         addMetadata(jufoLuokkaKoodi, ColumnMetadata.named("JufoLuokkaKoodi").withIndex(14).ofType(Types.NVARCHAR).withSize(1));
+        addMetadata(avoinSaatavuusJulkaisumaksu, ColumnMetadata.named("AvoinSaatavuusJulkaisumaksu").withIndex(15).ofType(Types.NVARCHAR).withSize(40));
 
     }
 
