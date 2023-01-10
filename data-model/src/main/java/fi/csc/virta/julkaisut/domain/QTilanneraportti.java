@@ -92,8 +92,8 @@ public class QTilanneraportti extends com.querydsl.sql.RelationalPathBase<QTilan
         addMetadata(jufoTunnus, ColumnMetadata.named("JufoTunnus").withIndex(13).ofType(Types.NVARCHAR).withSize(10));
         addMetadata(jufoLuokkaKoodi, ColumnMetadata.named("JufoLuokkaKoodi").withIndex(14).ofType(Types.NVARCHAR).withSize(1));
         addMetadata(avoinSaatavuusJulkaisumaksu, ColumnMetadata.named("AvoinSaatavuusJulkaisumaksu").withIndex(15).ofType(Types.NVARCHAR).withSize(30));
-        addMetadata(avoinSaatavuusJulkaisumaksuVuosi, ColumnMetadata.named("avoinSaatavuusJulkaisumaksuVuosi").withIndex(16).ofType(Types.NVARCHAR).withSize(1));
-        addMetadata(julkaisuKanavaOA, ColumnMetadata.named("julkaisuKanavaOA").withIndex(17).ofType(Types.INTEGER).withSize(10));
+        addMetadata(avoinSaatavuusJulkaisumaksuVuosi, ColumnMetadata.named("avoinSaatavuusJulkaisumaksuVuosi").withIndex(16).ofType(Types.INTEGER).withSize(10));
+        addMetadata(julkaisuKanavaOA, ColumnMetadata.named("julkaisuKanavaOA").withIndex(17).ofType(Types.NVARCHAR).withSize(1));
         addMetadata(avoinSaatavuusKytkin, ColumnMetadata.named("avoinSaatavuusKytkin").withIndex(18).ofType(Types.NVARCHAR).withSize(1));
         addMetadata(lisenssiKoodi, ColumnMetadata.named("lisenssiKoodi").withIndex(19).ofType(Types.NVARCHAR).withSize(1));
         addMetadata(muotoKoodi, ColumnMetadata.named("muotoKoodi").withIndex(20).ofType(Types.NVARCHAR).withSize(1));
