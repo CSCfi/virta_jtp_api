@@ -40,7 +40,7 @@ public class QTilanneraportti extends com.querydsl.sql.RelationalPathBase<QTilan
         public final StringPath jufoTunnus = createString("JufoTunnus");
         public final StringPath jufoLuokkaKoodi = createString("JufoLuokkaKoodi");
         public final StringPath avoinSaatavuusJulkaisumaksu = createString("avoinSaatavuusJulkaisumaksu");
-        public final NumberPath<Integer> avoinSaatavuusJulkaisumaksuVuosi =  createNumber("avoinSaatavuusJulkaisumaksu", Integer.class);
+        public final NumberPath<Integer> avoinSaatavuusJulkaisumaksuVuosi =  createNumber("avoinSaatavuusJulkaisumaksuVuosi", Integer.class);
         public final StringPath julkaisuKanavaOA = createString("julkaisuKanavaOA");
         public final StringPath avoinSaatavuusKytkin = createString("avoinSaatavuusKytkin");
         public final StringPath lisenssiKoodi = createString("lisenssiKoodi");
