@@ -38,7 +38,7 @@ public class Tilanneraportti implements DTO {
     private String opinnayteKoodi;
     private String taidetyyppiKoodi;
     private String avSovellusTyyppiKoodi;
-
+    private String rinnakkaistallennettuKytkin;
 
     public String getOrganisaatioNimi() {
         return organisaatioNimi;
@@ -151,7 +151,11 @@ public class Tilanneraportti implements DTO {
     public String getAVSovellusTyyppiKoodi() {
 	return avSovellusTyyppiKoodi;
     }
-
+    
+    public String getRinnakkaistallennettuKytkin() {
+	return rinnakkaistallennettuKytkin;
+    }
+	
     public void setOrganisaatioNimi(String organisaatioNimi) {
         this.organisaatioNimi = organisaatioNimi;
     }
@@ -251,7 +255,11 @@ public class Tilanneraportti implements DTO {
     public void setRaporttiKytkin(String raporttiKytkin) {
 	this.raporttiKytkin = raporttiKytkin;
     }
-
+    
+    public void setRinnakkaistallennettuKytkin(String rinnakkaistallennettuKytkin) {
+	this.rinnakkaistallennettuKytkin = rinnakkaistallennettuKytkin;
+    }
+	
     public void setOpinnayteKoodi(String opinnayteKoodi) {
 	this.opinnayteKoodi = opinnayteKoodi;
     }
