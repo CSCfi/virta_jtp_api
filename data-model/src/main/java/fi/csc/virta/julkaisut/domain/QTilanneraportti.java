@@ -53,7 +53,7 @@ public class QTilanneraportti extends com.querydsl.sql.RelationalPathBase<QTilan
         public final StringPath opinnayteKoodi = createString("opinnayteKoodi");
         public final StringPath taidetyyppiKoodi = createString("taidetyyppiKoodi");
         public final StringPath	avSovellusTyyppiKoodi = createString("avSovellusTyyppiKoodi");
-
+        public final StringPath rinnakkaistallennettuKytkin = createString("rinnakkaistallennettuKytkin");
 
     public QTilanneraportti(String variable) {
         super(QTilanneraportti.class, forVariable(variable), "web", "Tilanneraportti");
@@ -105,6 +105,8 @@ public class QTilanneraportti extends com.querydsl.sql.RelationalPathBase<QTilan
         addMetadata(opinnayteKoodi, ColumnMetadata.named("opinnayteKoodi").withIndex(26).ofType(Types.NVARCHAR).withSize(1));
         addMetadata(taidetyyppiKoodi, ColumnMetadata.named("taidetyyppiKoodi").withIndex(27).ofType(Types.NVARCHAR).withSize(1));
         addMetadata(avSovellusTyyppiKoodi, ColumnMetadata.named("avSovellusTyyppiKoodi").withIndex(28).ofType(Types.NVARCHAR).withSize(1));
+        addMetadata(rinnakkaistallennettuKytkin, ColumnMetadata.named("rinnakkaistallennettuKytkin").withIndex(29).ofType(Types.NVARCHAR).withSize(1));
+        
     }
 
 }
